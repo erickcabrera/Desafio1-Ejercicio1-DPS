@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #1472b6;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  color: white; /* Cambio el color de las letras a blanco */
+  padding: 10px; /* Agrego un espacio interno para separar del borde */
+  background-color: #1472b6; /* Igualo el fondo al del App-header */
+  border-radius: 4px; /* Añado bordes redondeados */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-picker {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list {
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-picker h2,
+.movie-list h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #f8d142;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.movie-name {
+  flex: 2;
+  font-size: 18px;
+  color: #333;
+}
+
+.movie-price {
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+input {
+  width: 40px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 20px;
+  font-weight: bold;
+}
